@@ -3,16 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafael Joshua Diaz | Programmer</title>
-
+    <title>Joshua Diaz | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Hello, I'm Josh!</h1>
+<header>
+    <nav class="navbar">
+        <h2><a href="index.html">🍂</a></h2>
+        <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <p>Welcome to my portfolio.</p>
 
-    <script src="script.js"></script>
+<section class="me">
+    <div class="me-text">
+        <p class="welcome">こんにちは！</p>
+        <h1>Joshua Diaz</h1>
+        <p class="description">
+            Undergraduate Student<br>
+            De La Salle University Manila<br>
+            Programmer
+        </p>
+        <a href="#projects" class="button">
+            View Projects
+        </a>
+    </div>
+    <div class="my-image">
+        <img src="assets/profile.jpg" alt="Profile">
+    </div>
+</section>
+
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I'm currently an undergraduate at De La Salle University, 
+            taking up my Bachelor of Science in Computer Science 
+            with a major in Software Technology. My fields of interest
+            include software engineering, mobile development, game development, and UI/UX
+            design.
+
+            I love building projects that combine creativity with
+            technology.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+        <a href="projects/OperatingSystemEmulator.html" class="project-link">
+            <div class="project">
+                <img src="assets/emulator.png">
+                <h3>Operating System Emulator</h3>
+                <p>Multithreaded console-based operating system emulator with process scheduling and memory allocation.</p>
+            </div>
+        </a>
+        <a href="projects/MobileChemistryLab.html" class="project-link">
+            <div class="project">
+                <img src="assets/chemistry.png">
+                <h3>Mobile Chemistry Lab</h3>
+                <p>Educational chemistry lab application built in Unity for the mobile platform.</p>
+            </div>
+        </a>
+        <a href="projects/FishingGame.html" class="project-link">
+            <div class="project">
+                <img src="assets/fishing.png">
+                <h3>Fishing Game</h3>
+                <p>Mobile fishing minigame inspired by Stardew Valley, built in Godot.</p>
+            </div>
+        </a>
+        <a href="projects/InteractiveIsland.html" class="project-link">
+            <div class="project">
+                <img src="assets/island.png">
+                <h3>Interactive Island</h3>
+                <p>3D JavaScript experience with Three.js.</p>
+            </div>
+        </a>
+    </div>
+</section>
+
+
+
+<section id="skills">
+    <h2>Programming, Web, & Database Languages</h2>
+    <div class="skills">
+        <span>C</span>
+        <span>C#</span>
+        <span>C++</span>
+        <span>Java</span>
+        <span>Python</span>
+        <span>Kotlin</span>
+        <span>GDScript</span>
+        <span>GoLang</span>
+        <span>NetLogo</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>SQL</span>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Platforms & Tools</h2>
+    <div class="skills">
+        <span>Android Studio</span>
+        <span>Blender</span>
+        <span>DevC++</span>
+        <span>Docker</span>
+        <span>Eclipse IDE</span>
+        <span>Figma</span>
+        <span>Github</span>
+        <span>Godot</span>
+        <span>Jira</span>
+        <span>PostgreSQL</span>
+        <span>Unity</span>
+        <span>Visual Studio 2026</span>
+        <span>Visual Studio Code</span>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Let's Connect!</h2>
+    <div class="card">
+        <p>
+            Feel free to reach out if you'd like to collaborate or discuss software development opportunities. <br>
+            RJPD2903@gmail.com
+        </p>
+    </div>
+</section>
+
+
+<footer>
+    © 2026 Joshua Diaz
+</footer>
+
 </body>
 </html>
