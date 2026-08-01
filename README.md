@@ -2,4 +2,4 @@
 
 This repository contains the source code for my personal portfolio website.
 
-Visit it at: rjpdiaz.github.io
+Visit it [HERE](https://rjpdiaz.github.io)
